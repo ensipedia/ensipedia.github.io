@@ -19,28 +19,27 @@ function removeData(key, arrayString) {
   console.log(`Removing from ${key}: ${arrayString}`);
   const arr = JSON.parse(arrayString);
   let res = json[key];
-  arr.forEach(str => {
+  for (const str of res) {
     const index = res.findIndex(s => s === str);
-    if (index < 0) return;
-    res = res.splice(index, 1);
-  });
+    if (index >= 0) res = res.splice(index, 1);
+  }
   json[key] = res;
 }
 
-[
+for (const key of [
   "ADD_WORDS",
   "REMOVE_WORDS",
   "ADD_VERBS",
   "REMOVE_VERBS"
-].forEach(key => {
+]) {
   const arrayString = process.env[key];
-  if (!arrayString?.length) return;
+  if (!arrayString?.length) continue;
   const keySplit = key.toLowerCase().split("_");
   const action = keySplit[0];
   const name = keySplit[1];
   if (action == "add") addData(name, arrayString);
   else if (action == "remove") removeData(name, arrayString);
-});
+}
 
 console.log(`Writing to: ${TARGET_PATH}`);
 writeFileSync(TARGET_PATH, JSON.stringify(json, null, 2));
