@@ -18,12 +18,7 @@ function addData(key, arrayString) {
 function removeData(key, arrayString) {
   console.log(`Removing from ${key}: ${arrayString}`);
   const arr = JSON.parse(arrayString);
-  let res = json[key];
-  for (const str of res) {
-    const index = res.findIndex(s => s === str);
-    if (index >= 0) res = res.splice(index, 1);
-  }
-  json[key] = res;
+  json[key] = json[key].filter(s => !arr.includes(s));
 }
 
 for (const key of [
