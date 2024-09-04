@@ -2928,6 +2928,8 @@
     "misses",
     "concerned",
     "concerned",
-    "drop"
+    "drop",
+    "judges",
+    "reset"
   ]
 }
