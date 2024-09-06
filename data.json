@@ -2691,7 +2691,8 @@
     "date",
     "issues",
     "questions",
-    "kinda"
+    "kinda",
+    "coherent"
   ],
   "verbs": [
     "went to",
@@ -2946,6 +2947,9 @@
     "judges",
     "reset",
     "breaks",
-    "touching"
+    "touching",
+    "replied",
+    "mock",
+    "putting"
   ]
 }
