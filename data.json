@@ -2710,7 +2710,8 @@
     "strange",
     "most",
     "alien",
-    "exclusive"
+    "exclusive",
+    "cause"
   ],
   "verbs": [
     "went to",
@@ -2976,6 +2977,7 @@
     "handle",
     "reading",
     "rush",
-    "takes"
+    "takes",
+    "require"
   ]
 }
