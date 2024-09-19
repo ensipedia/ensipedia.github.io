@@ -2722,7 +2722,9 @@
     "consistent",
     "ui",
     "crash",
-    "cache"
+    "cache",
+    "pardon?",
+    "aggressive"
   ],
   "verbs": [
     "went to",
@@ -2990,6 +2992,7 @@
     "rush",
     "takes",
     "require",
-    "comes"
+    "comes",
+    "informing"
   ]
 }
