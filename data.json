@@ -2724,7 +2724,9 @@
     "crash",
     "cache",
     "pardon?",
-    "aggressive"
+    "aggressive",
+    "against",
+    "logs"
   ],
   "verbs": [
     "went to",
