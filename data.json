@@ -2734,7 +2734,8 @@
     "last",
     "fasz",
     "disease",
-    "edition"
+    "edition",
+    "worst"
   ],
   "verbs": [
     "went to",
@@ -3004,6 +3005,7 @@
     "require",
     "comes",
     "informing",
-    "questioning"
+    "questioning",
+    "tried"
   ]
 }
