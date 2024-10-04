@@ -2737,7 +2737,9 @@
     "edition",
     "worst",
     "mashallah",
-    "ammo"
+    "ammo",
+    "opposition",
+    "alt"
   ],
   "verbs": [
     "went to",
@@ -3008,6 +3010,7 @@
     "comes",
     "informing",
     "questioning",
-    "tried"
+    "tried",
+    "report"
   ]
 }
