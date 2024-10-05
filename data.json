@@ -2739,7 +2739,12 @@
     "mashallah",
     "ammo",
     "opposition",
-    "alt"
+    "alt",
+    "furniture",
+    "six",
+    "fizzy",
+    ":)",
+    "rizzy"
   ],
   "verbs": [
     "went to",
@@ -3011,6 +3016,7 @@
     "informing",
     "questioning",
     "tried",
-    "report"
+    "report",
+    "miss"
   ]
 }
