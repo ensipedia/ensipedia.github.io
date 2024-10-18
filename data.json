@@ -2767,7 +2767,8 @@
     "network",
     "genius",
     "performance",
-    "sub"
+    "sub",
+    "protests"
   ],
   "verbs": [
     "went to",
@@ -3052,6 +3053,7 @@
     "appears",
     "mashed",
     "deleted",
-    "gambling"
+    "gambling",
+    "wake"
   ]
 }
