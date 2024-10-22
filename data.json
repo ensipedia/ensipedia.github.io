@@ -2775,7 +2775,9 @@
     "quote",
     "abnormality",
     "venus",
-    "other"
+    "other",
+    "mistake",
+    "fan"
   ],
   "verbs": [
     "went to",
@@ -3065,6 +3067,7 @@
     "cleans",
     "store",
     "hide",
-    "drive"
+    "drive",
+    "laugh"
   ]
 }
