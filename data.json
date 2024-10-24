@@ -2783,7 +2783,8 @@
     "ads",
     "far",
     "actual",
-    "async"
+    "async",
+    "friendly"
   ],
   "verbs": [
     "went to",
@@ -3077,6 +3078,7 @@
     "laugh",
     "change",
     "destruct",
-    "nerf"
+    "nerf",
+    "returned"
   ]
 }
