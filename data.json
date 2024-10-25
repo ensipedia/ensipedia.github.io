@@ -2784,7 +2784,9 @@
     "far",
     "actual",
     "async",
-    "friendly"
+    "friendly",
+    "angry",
+    "fifth"
   ],
   "verbs": [
     "went to",
@@ -3079,6 +3081,8 @@
     "change",
     "destruct",
     "nerf",
-    "returned"
+    "returned",
+    "doxxing",
+    "locate"
   ]
 }
