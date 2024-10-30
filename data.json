@@ -2791,7 +2791,8 @@
     "believer",
     "dm",
     "brainfuck",
-    "weapons"
+    "weapons",
+    "offtopic"
   ],
   "verbs": [
     "went to",
@@ -3089,6 +3090,7 @@
     "returned",
     "doxxing",
     "locate",
-    "unrigged"
+    "unrigged",
+    "swollen"
   ]
 }
