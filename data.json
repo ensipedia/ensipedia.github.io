@@ -2792,7 +2792,8 @@
     "dm",
     "brainfuck",
     "weapons",
-    "offtopic"
+    "offtopic",
+    "devs"
   ],
   "verbs": [
     "went to",
@@ -3091,6 +3092,7 @@
     "doxxing",
     "locate",
     "unrigged",
-    "swollen"
+    "swollen",
+    "shortening"
   ]
 }
