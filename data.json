@@ -2799,7 +2799,9 @@
     "moral",
     "decision",
     "capitalism",
-    "number"
+    "number",
+    "hand",
+    "mind"
   ],
   "verbs": [
     "went to",
@@ -3106,6 +3108,7 @@
     "wouldn't",
     "implement",
     "rigged",
-    "searched"
+    "searched",
+    "calm"
   ]
 }
