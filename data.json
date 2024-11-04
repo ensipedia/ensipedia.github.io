@@ -2805,7 +2805,9 @@
     "bedroom",
     "coins",
     "scissors",
-    "arabic"
+    "arabic",
+    "part",
+    "commentary"
   ],
   "verbs": [
     "went to",
