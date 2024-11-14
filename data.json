@@ -2829,7 +2829,8 @@
     "cheat",
     "obv",
     "discovery",
-    "glass"
+    "glass",
+    "asia"
   ],
   "verbs": [
     "went to",
@@ -3149,6 +3150,7 @@
     "applying",
     "wrote",
     "recommend",
-    "hated"
+    "hated",
+    "calling"
   ]
 }
