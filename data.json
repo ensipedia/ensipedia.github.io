@@ -2850,7 +2850,8 @@
     "inspector",
     "unless",
     "software",
-    "among"
+    "among",
+    "choice"
   ],
   "verbs": [
     "went to",
@@ -3178,6 +3179,8 @@
     "revert",
     "bypass",
     "violate",
-    "shoutout"
+    "shoutout",
+    "sneak",
+    "watching"
   ]
 }
