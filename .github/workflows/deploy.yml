@@ -39,6 +39,7 @@ jobs:
         run: |
           cd site
           npm i
+          node starboard/build.js
           npm run build
           cd ..
     
@@ -46,7 +47,7 @@ jobs:
         run: |
           mkdir dist
           cp data.json ./dist/
-          cp README.md ./dist/
+          cp README.md ./dist/index.md
           mv ./site/build ./dist/wip
     
       - name: Publish
