@@ -1,5 +1,4 @@
 <script>
-  import { page } from "$app/stores";
   import { onMount } from "svelte";
   import Lazy from "svelte-lazy";
   import {
@@ -12,12 +11,13 @@
   import TopBar from "$lib/components/TopBar.svelte";
   
   let data;
-  let category = $page.url.searchParams.get("category") || "words";
+  let category = "words";
   let query = "";
   let filtered;
   $: filtered = data?.[category]?.filter?.(w => w.toLowerCase().includes(query.toLowerCase())) ?? [];
   
   onMount(async () => {
+    category = url.searchParams.get("category") || category;
     const response = await fetch("./data.json");
     data = await response.json();
   });
