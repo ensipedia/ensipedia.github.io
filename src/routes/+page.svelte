@@ -34,8 +34,10 @@
     <input type="radio" id="verbs" value="verbs" bind:group={category} />
     <SegmentedButtonItem input="verbs">Verbs</SegmentedButtonItem>
   </SegmentedButtonContainer>
-  {#if filtered != null}
-    <br><br><p1>{`${filtered.length} items shown`}</p1>
+  {#if data != null}
+    <br><br><p1>{
+      filtered.length ? `${filtered.length} items shown` : "No matches"
+    }</p1>
   {/if}
 </div>
 
@@ -43,16 +45,12 @@
   {#await dataPromise}
     <br><CircularProgressIndeterminate />
   {:then}
-    {#if filtered.length > 0}
-      {#each filtered as word}
-        <br>
-        <Card type="outlined">
-          {word}
-        </Card>
-      {/each}
-    {:else}
-      <br><b>No matches</b>
-    {/if}
+    {#each filtered as word}
+      <br>
+      <Card type="outlined">
+        {word}
+      </Card>
+    {/each}
   {:catch error}
     <p style="color: red">Error: {error.message}</p>
   {/await}
