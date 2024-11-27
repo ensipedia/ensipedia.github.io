@@ -7,7 +7,7 @@ const objs = readdirSync("./starboard/").filter(f => f.endsWith(".json")).map(fi
   return convo.map(msg => {
     if (msg.author == "ensi") {
       msg.author = "Ensi";
-      msg.avatar ??= "/ensi.png";
+      msg.avatar ??= "ensi.png";
     } else {
       msg.author = `User ${userIndex}`;
       userIndex++;
