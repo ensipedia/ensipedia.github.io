@@ -1,0 +1,56 @@
+name: Deploy site
+
+on:
+  push:
+  
+  workflow_dispatch:
+
+  workflow_run:
+    branches: ["main"]
+    workflows: ["Update data"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "23"
+    
+      - name: Checkout site branch
+        uses: actions/checkout@v4
+        id: site
+        with:
+          ref: site
+          path: site
+    
+      - name: Build site branch
+        run: |
+          cd site
+          npm i
+          npm run build
+          cd ..
+    
+      - name: Prepare dist folder
+        run: |
+          mkdir dist
+          cp data.json ./dist/
+          cp README.md ./dist/
+          mv ./site/build ./dist/wip
+    
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
