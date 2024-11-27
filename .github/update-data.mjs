@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 
-const TARGET_PATH = "./data.json";
+const TARGET_PATH = "./static/data.json";
 
 console.log(`Reading file: ${TARGET_PATH}`);
 const raw = readFileSync(TARGET_PATH).toString();
