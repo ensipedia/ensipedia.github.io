@@ -17,8 +17,9 @@
   $: filtered = data?.[category]?.filter?.(w => w.toLowerCase().includes(query.toLowerCase())) ?? [];
   
   onMount(async () => {
-    category = url.searchParams.get("category") || category;
-    const response = await fetch("./data.json");
+    const searchParams = new URLSearchParams(window.location.search);
+    category = searchParams.get("category") || category;
+    const response = await fetch("data.json");
     data = await response.json();
   });
 </script>
