@@ -18,7 +18,8 @@
   
   onMount(async () => {
     const searchParams = new URLSearchParams(window.location.search);
-    category = searchParams.get("category") || category;
+    category = searchParams?.get?.("category") || category;
+    query = searchParams?.get?.("q") || query;
     const response = await fetch("data.json");
     data = await response.json();
   });

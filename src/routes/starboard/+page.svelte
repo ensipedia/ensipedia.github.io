@@ -15,7 +15,7 @@
   
   onMount(async () => {
     const searchParams = new URLSearchParams(window.location.search);
-    query = searchParams.get("q") || "";
+    query = searchParams?.get?.("q") || query;
     starboard = await getStarboard();
   });
 </script>
