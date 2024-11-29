@@ -31,6 +31,11 @@
     <TextFieldOutlined
       bind:value={query}
       name="Search" />
+    {#if starboard != null}
+      <br><p1 style:text-align="left">{
+        filtered.length ? `${filtered.length} messages shown` : "No matches"
+      }</p1>
+    {/if}
     
     <br>
     {#if starboard != null}
