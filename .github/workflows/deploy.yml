@@ -2,6 +2,7 @@ name: Deploy site
 
 on:
   push:
+    branches: ["main"]
   
   workflow_dispatch:
 
@@ -19,39 +20,33 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
       
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "23"
-    
-      - name: Checkout site branch
-        uses: actions/checkout@v4
-        id: site
-        with:
-          ref: site
-          path: site
-    
-      - name: Build site branch
+      
+      - name: Install dependencies
+        run: npm i
+        
+      - name: Set Git credentials
         run: |
-          cd site
-          npm i
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Build & push starboard
+        continue-on-error: true
+        run: |
           node starboard/build.js
-          npm run build
-          cd ..
+          git add .
+          git commit -m "chore: build starboard.json"
+          git push
     
-      - name: Prepare dist folder
-        run: |
-          mkdir dist
-          cp data.json ./dist/
-          cp README.md ./dist/index.md
-          mv ./site/build ./dist/wip
+      - name: Build site
+        run: npm run build
     
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build

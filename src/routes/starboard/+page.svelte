@@ -37,7 +37,7 @@
       <p>
         <b>To add a message here:</b><br>
         • Request on <a href="https://aliernfrog.github.io/discord">Discord</a><br>
-        • Create a issue on <a href="https://github.com/aliernfrog/ensipedia">GitHub</a><br>
+        • Create a issue or PR on <a href="https://github.com/ensipedia/ensipedia.github.io">GitHub</a><br>
         <br>
         Include a screenshot and a link to the message in your request<br>
         Soon, this may be integrated to Ensi

@@ -43,7 +43,7 @@
       <p>
         • <a href="https://aliernfrog.github.io/ensibot">Add Ensi</a><br>
         • <a href="https://aliernfrog.github.io/discord">Discord server</a><br>
-        • <a href="https://github.com/aliernfrog/ensipedia">Ensipedia source code</a>
+        • <a href="https://github.com/ensipedia/ensipedia.github.io">Ensipedia source code</a>
       </p>
     </div>
     
