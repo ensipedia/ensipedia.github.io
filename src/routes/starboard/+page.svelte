@@ -26,7 +26,23 @@
     
     <a href="." style:text-decoration="none">
       <Button type="elevated">🏠 Homepage</Button>
-    </a><br><br>
+    </a>
+    
+    <div
+      style:text-align="left"
+      style:margin="24px 0px 24px 0px"
+      style:border-radius="28px"
+      style:padding="1px 24px 1px 24px"
+      style:background="rgb(var(--m3-scheme-surface-container-low))">
+      <p>
+        <b>To add a message here:</b><br>
+        • Request on <a href="https://aliernfrog.github.io/discord">Discord</a><br>
+        • Create a issue on <a href="https://github.com/aliernfrog/ensipedia">GitHub</a><br>
+        <br>
+        Include a screenshot and a link to the message in your request<br>
+        Soon, this may be integrated to Ensi
+      </p>
+    </div>
     
     <TextFieldOutlined
       bind:value={query}

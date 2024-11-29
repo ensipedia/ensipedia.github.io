@@ -30,9 +30,13 @@
   <div style:text-align="center">
     <TopBar/>
     
+    <a href="starboard" style:text-decoration="none">
+      <Button type="elevated">⭐ Starboard</Button>
+    </a>
+    
     <div
       style:text-align="left"
-      style:margin="8px 0px 24px 0px"
+      style:margin="24px 0px 24px 0px"
       style:border-radius="28px"
       style:padding="1px 24px 1px 24px"
       style:background="rgb(var(--m3-scheme-surface-container-low))">
@@ -42,10 +46,6 @@
         • <a href="https://github.com/aliernfrog/ensipedia">Ensipedia source code</a>
       </p>
     </div>
-    
-    <a href="starboard" style:text-decoration="none">
-      <Button type="elevated">⭐ Starboard</Button>
-    </a><br><br>
     
     <TextFieldOutlined
       bind:value={query}
