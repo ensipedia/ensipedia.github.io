@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import Lazy from "svelte-lazy";
-  import { CircularProgressIndeterminate, TextFieldOutlined } from "m3-svelte";
+  import { Button, CircularProgressIndeterminate, TextFieldOutlined } from "m3-svelte";
   import TopBar from "$lib/components/TopBar.svelte";
   import DMessage from "$lib/components/DMessage.svelte";
   import { getStarboard } from "$lib/starboard.js";
@@ -23,6 +23,10 @@
 <Lazy>
   <div style:text-align="center">
     <TopBar title="Starboard" icon="starboard.png" />
+    
+    <a href="." style:text-decoration="none">
+      <Button type="elevated">🏠 Homepage</Button>
+    </a><br><br>
     
     <TextFieldOutlined
       bind:value={query}

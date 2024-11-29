@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import Lazy from "svelte-lazy";
   import {
+    Button,
     Card,
     CircularProgressIndeterminate,
     SegmentedButtonContainer,
@@ -28,6 +29,23 @@
 <Lazy>
   <div style:text-align="center">
     <TopBar/>
+    
+    <div
+      style:text-align="left"
+      style:margin="8px 0px 24px 0px"
+      style:border-radius="28px"
+      style:padding="1px 24px 1px 24px"
+      style:background="rgb(var(--m3-scheme-surface-container-low))">
+      <p>
+        • <a href="https://aliernfrog.github.io/ensibot">Add Ensi</a><br>
+        • <a href="https://aliernfrog.github.io/discord">Discord server</a><br>
+        • <a href="https://github.com/aliernfrog/ensipedia">Ensipedia source code</a>
+      </p>
+    </div>
+    
+    <a href="starboard" style:text-decoration="none">
+      <Button type="elevated">⭐ Starboard</Button>
+    </a><br><br>
     
     <TextFieldOutlined
       bind:value={query}
