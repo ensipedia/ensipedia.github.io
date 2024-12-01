@@ -2859,7 +2859,15 @@
     "backrooms",
     "ik",
     "individual",
-    "trap"
+    "trap",
+    "onto",
+    "heck",
+    "territory",
+    "fent",
+    "massacre",
+    "deathwish",
+    "hush",
+    "y'all"
   ],
   "verbs": [
     "went to",
@@ -3191,6 +3199,8 @@
     "sneak",
     "watching",
     "protested",
-    "chatting"
+    "chatting",
+    "making",
+    "armed"
   ]
 }
