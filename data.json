@@ -2877,7 +2877,9 @@
     "dirty",
     "tf",
     "ah",
-    "intellectual"
+    "intellectual",
+    "goals",
+    "farmer"
   ],
   "verbs": [
     "went to",
@@ -3216,6 +3218,7 @@
     "eliminate",
     "consider",
     "published",
-    "froze"
+    "froze",
+    "studying"
   ]
 }
