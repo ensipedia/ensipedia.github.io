@@ -2873,7 +2873,11 @@
     "nonsense",
     "nail",
     "nailgun",
-    "fate"
+    "fate",
+    "dirty",
+    "tf",
+    "ah",
+    "intellectual"
   ],
   "verbs": [
     "went to",
@@ -3210,6 +3214,8 @@
     "armed",
     "started",
     "eliminate",
-    "consider"
+    "consider",
+    "published",
+    "froze"
   ]
 }
