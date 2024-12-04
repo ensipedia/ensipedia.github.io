@@ -3226,6 +3226,7 @@
     "studying",
     "pause",
     "turning",
-    "skip"
+    "skip",
+    "enabled"
   ]
 }
