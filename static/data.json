@@ -3228,6 +3228,7 @@
     "pause",
     "turning",
     "skip",
-    "enabled"
+    "enabled",
+    "enforcing"
   ]
 }
