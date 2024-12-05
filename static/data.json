@@ -3233,6 +3233,7 @@
     "skip",
     "enabled",
     "enforcing",
-    "responded"
+    "responded",
+    "mentions"
   ]
 }
