@@ -2889,7 +2889,10 @@
     "invites",
     "impact",
     "tanks",
-    "great"
+    "great",
+    "pal",
+    "anti-trust",
+    "least"
   ],
   "verbs": [
     "went to",
@@ -3237,6 +3240,7 @@
     "enforcing",
     "responded",
     "mentions",
-    "switched"
+    "switched",
+    "enter"
   ]
 }
