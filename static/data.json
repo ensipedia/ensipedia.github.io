@@ -3276,6 +3276,7 @@
     "uses",
     "prove",
     "uploads",
-    "start"
+    "start",
+    "escaping"
   ]
 }
