@@ -2915,7 +2915,10 @@
     "improvement",
     "link",
     "grand",
-    "service"
+    "service",
+    "explosion",
+    "loser",
+    "owner"
   ],
   "verbs": [
     "went to",
@@ -3281,6 +3284,8 @@
     "start",
     "escaping",
     "planning",
-    "looks"
+    "looks",
+    "keeps",
+    "wasnt"
   ]
 }
