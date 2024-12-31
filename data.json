@@ -2929,7 +2929,9 @@
     "lock",
     "design",
     "background",
-    "switcher"
+    "switcher",
+    "vc",
+    "ppl"
   ],
   "verbs": [
     "went to",
@@ -3299,6 +3301,7 @@
     "keeps",
     "wasnt",
     "spending",
-    "win"
+    "win",
+    "mouslates"
   ]
 }
