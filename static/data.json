@@ -2931,7 +2931,9 @@
     "background",
     "switcher",
     "vc",
-    "ppl"
+    "ppl",
+    "path",
+    "numbers"
   ],
   "verbs": [
     "went to",
@@ -3303,6 +3305,7 @@
     "spending",
     "win",
     "mouslates",
-    "matter"
+    "matter",
+    "stage"
   ]
 }
