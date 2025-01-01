@@ -2933,7 +2933,8 @@
     "vc",
     "ppl",
     "path",
-    "numbers"
+    "numbers",
+    "cheats"
   ],
   "verbs": [
     "went to",
@@ -3306,6 +3307,7 @@
     "win",
     "mouslates",
     "matter",
-    "stage"
+    "stage",
+    "dropped"
   ]
 }
