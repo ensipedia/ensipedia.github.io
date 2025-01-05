@@ -2940,7 +2940,8 @@
     "grok",
     "intelligence",
     "purpose",
-    "flashbang"
+    "flashbang",
+    "captcha"
   ],
   "verbs": [
     "went to",
