@@ -2966,7 +2966,9 @@
     "nevermind",
     "vector",
     "minecraft",
-    "instructions"
+    "instructions",
+    "president",
+    "context"
   ],
   "verbs": [
     "went to",
@@ -3357,6 +3359,8 @@
     "hope",
     "touched",
     "scream",
-    "increasing"
+    "increasing",
+    "pushes",
+    "pushed"
   ]
 }
