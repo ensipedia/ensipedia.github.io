@@ -2977,7 +2977,11 @@
     "helpful",
     "einstein",
     "groceries",
-    "alternative"
+    "alternative",
+    "sight",
+    "higher",
+    "crosshair",
+    "unlawful"
   ],
   "verbs": [
     "went to",
@@ -3373,6 +3377,8 @@
     "pushed",
     "pass",
     "warped",
-    "hiding"
+    "hiding",
+    "murder",
+    "themed"
   ]
 }
