@@ -3035,7 +3035,8 @@
     "gn",
     "forum",
     "obsolete",
-    "tech"
+    "tech",
+    "bangladeshi"
   ],
   "verbs": [
     "went to",
@@ -3457,6 +3458,8 @@
     "arrive",
     "respected",
     "understands",
-    "leave"
+    "leave",
+    "fight",
+    "turn"
   ]
 }
