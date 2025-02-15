@@ -3046,7 +3046,9 @@
     "dedicated",
     "lategame",
     "weekend",
-    "americans"
+    "americans",
+    "technologies",
+    "sites"
   ],
   "verbs": [
     "went to",
@@ -3472,6 +3474,7 @@
     "fight",
     "turn",
     "tripping",
-    "aged"
+    "aged",
+    "confusing"
   ]
 }
