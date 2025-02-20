@@ -3058,7 +3058,8 @@
     "facts",
     "unintentional",
     "module",
-    "instant"
+    "instant",
+    "whole"
   ],
   "verbs": [
     "went to",
@@ -3488,6 +3489,8 @@
     "confusing",
     "lagged",
     "elect",
-    "wandering"
+    "wandering",
+    "worry",
+    "annoy"
   ]
 }
