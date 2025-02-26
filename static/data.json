@@ -3063,7 +3063,8 @@
     "imperialism",
     "prognosis",
     "closetmod",
-    "recently"
+    "recently",
+    "provider"
   ],
   "verbs": [
     "went to",
@@ -3497,6 +3498,7 @@
     "worry",
     "annoy",
     "paste",
-    "riding"
+    "riding",
+    "hears"
   ]
 }
