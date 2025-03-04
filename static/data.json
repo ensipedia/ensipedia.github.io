@@ -3078,7 +3078,10 @@
     "trucks",
     "house",
     "sadge",
-    "memory"
+    "memory",
+    "basement",
+    "formula",
+    "fact"
   ],
   "verbs": [
     "went to",
@@ -3521,6 +3524,8 @@
     "polska",
     "shown",
     "alters",
-    "invited"
+    "invited",
+    "coded",
+    "proceed"
   ]
 }
