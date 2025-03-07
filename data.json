@@ -3083,7 +3083,8 @@
     "formula",
     "fact",
     "titanic",
-    "permanent"
+    "permanent",
+    "npc"
   ],
   "verbs": [
     "went to",
@@ -3528,6 +3529,8 @@
     "alters",
     "invited",
     "coded",
-    "proceed"
+    "proceed",
+    "malfunctioning",
+    "dated"
   ]
 }
