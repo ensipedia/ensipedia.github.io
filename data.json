@@ -3084,7 +3084,9 @@
     "fact",
     "titanic",
     "permanent",
-    "npc"
+    "npc",
+    "photoshop",
+    "class"
   ],
   "verbs": [
     "went to",
@@ -3531,6 +3533,7 @@
     "coded",
     "proceed",
     "malfunctioning",
-    "dated"
+    "dated",
+    "kicking"
   ]
 }
