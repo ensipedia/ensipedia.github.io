@@ -3098,7 +3098,8 @@
     "walls",
     "terrorism",
     "femboys",
-    "singleplayer"
+    "singleplayer",
+    "istanbul"
   ],
   "verbs": [
     "went to",
@@ -3550,6 +3551,7 @@
     "reported",
     "disappear",
     "exports",
-    "drip"
+    "drip",
+    "turned"
   ]
 }
