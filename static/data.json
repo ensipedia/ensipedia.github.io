@@ -3100,7 +3100,9 @@
     "femboys",
     "singleplayer",
     "istanbul",
-    "ci"
+    "ci",
+    "movies",
+    "whisky"
   ],
   "verbs": [
     "went to",
@@ -3553,6 +3555,7 @@
     "disappear",
     "exports",
     "drip",
-    "turned"
+    "turned",
+    "describe"
   ]
 }
