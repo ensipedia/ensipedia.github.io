@@ -3107,7 +3107,9 @@
     "threat",
     "bazooka",
     "fool",
-    "contrast"
+    "contrast",
+    "digital",
+    "rent"
   ],
   "verbs": [
     "went to",
@@ -3561,6 +3563,7 @@
     "exports",
     "drip",
     "turned",
-    "describe"
+    "describe",
+    "pays"
   ]
 }
