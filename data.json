@@ -3113,7 +3113,10 @@
     "masks",
     "traps",
     "pronouns",
-    "course"
+    "course",
+    "robot",
+    "opinions",
+    "worship"
   ],
   "verbs": [
     "went to",
@@ -3571,6 +3574,8 @@
     "pays",
     "showing",
     "pisses",
-    "unloved"
+    "unloved",
+    "checks",
+    "shift"
   ]
 }
