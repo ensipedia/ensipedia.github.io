@@ -3121,7 +3121,10 @@
     "currently",
     "wikipedia",
     "con",
-    "alienfrog"
+    "alienfrog",
+    "turk",
+    "rose",
+    "chamber"
   ],
   "verbs": [
     "went to",
@@ -3583,6 +3586,7 @@
     "checks",
     "shift",
     "pathing",
-    "clicking"
+    "clicking",
+    "favorited"
   ]
 }
