@@ -3124,7 +3124,8 @@
     "alienfrog",
     "turk",
     "rose",
-    "chamber"
+    "chamber",
+    "silence"
   ],
   "verbs": [
     "went to",
@@ -3587,6 +3588,7 @@
     "shift",
     "pathing",
     "clicking",
-    "favorited"
+    "favorited",
+    "building"
   ]
 }
