@@ -35,12 +35,7 @@
       style:padding="1px 24px 1px 24px"
       style:background="rgb(var(--m3-scheme-surface-container-low))">
       <p>
-        <b>To add a message here:</b><br>
-        • Request on <a href="https://aliernfrog.github.io/discord">Discord</a><br>
-        • Create a issue or PR on <a href="https://github.com/ensipedia/ensipedia.github.io">GitHub</a><br>
-        <br>
-        Include a screenshot and a link to the message in your request<br>
-        Soon, this may be integrated to Ensi
+        <b>To add a message here,</b> right click (or long press if mobile) a message of Ensi, click Apps and click the "Starboard" command of Ensi. The message may be included after a review.
       </p>
     </div>
     
