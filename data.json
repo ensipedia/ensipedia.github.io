@@ -3621,6 +3621,7 @@
     "pulled",
     "kicked",
     "digging",
-    "disorder"
+    "disorder",
+    "observe"
   ]
 }
