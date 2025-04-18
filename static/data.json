@@ -3143,7 +3143,14 @@
     "insecure",
     "mayor",
     "chp",
-    "demo"
+    "demo",
+    "donkey",
+    "marshmallow",
+    "border",
+    "trains",
+    "pic",
+    "backroom",
+    "what’s"
   ],
   "verbs": [
     "went to",
@@ -3611,6 +3618,8 @@
     "bombarded",
     "letting",
     "begins",
-    "pulled"
+    "pulled",
+    "kicked",
+    "digging"
   ]
 }
