@@ -3154,7 +3154,10 @@
     "visually",
     "couldnt",
     "insight",
-    "oclock"
+    "oclock",
+    "chaos",
+    "copypasta",
+    "minigame"
   ],
   "verbs": [
     "went to",
@@ -3628,6 +3631,11 @@
     "disorder",
     "observe",
     "spent",
-    "randomized"
+    "randomized",
+    "multiply",
+    "nuke",
+    "challenge",
+    "cut",
+    "improve"
   ]
 }
