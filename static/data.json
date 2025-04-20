@@ -3158,7 +3158,8 @@
     "chaos",
     "copypasta",
     "minigame",
-    "shorter"
+    "shorter",
+    "battle"
   ],
   "verbs": [
     "went to",
@@ -3642,6 +3643,7 @@
     "manage",
     "censoring",
     "initializes",
-    "display"
+    "display",
+    "implemented"
   ]
 }
