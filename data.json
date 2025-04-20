@@ -3157,7 +3157,8 @@
     "oclock",
     "chaos",
     "copypasta",
-    "minigame"
+    "minigame",
+    "shorter"
   ],
   "verbs": [
     "went to",
@@ -3640,6 +3641,7 @@
     "hasnt",
     "manage",
     "censoring",
-    "initializes"
+    "initializes",
+    "display"
   ]
 }
