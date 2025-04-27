@@ -3174,7 +3174,8 @@
     "passwords",
     "fat",
     "embeds",
-    "social"
+    "social",
+    "line"
   ],
   "verbs": [
     "went to",
@@ -3665,6 +3666,7 @@
     "jump",
     "restored",
     "willing",
-    "lose"
+    "lose",
+    "aim"
   ]
 }
