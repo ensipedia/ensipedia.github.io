@@ -3204,7 +3204,8 @@
     "drunk",
     "chicks",
     "sun",
-    "pregnancy"
+    "pregnancy",
+    "condition"
   ],
   "verbs": [
     "went to",
@@ -3707,6 +3708,7 @@
     "locked",
     "breaking",
     "glitched",
-    "arriving"
+    "arriving",
+    "rename"
   ]
 }
