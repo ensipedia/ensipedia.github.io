@@ -3205,7 +3205,10 @@
     "chicks",
     "sun",
     "pregnancy",
-    "condition"
+    "condition",
+    "republic",
+    "aztec",
+    "nationality"
   ],
   "verbs": [
     "went to",
@@ -3710,6 +3713,9 @@
     "glitched",
     "arriving",
     "rename",
-    "passed"
+    "passed",
+    "writing",
+    "carry",
+    "joins"
   ]
 }
