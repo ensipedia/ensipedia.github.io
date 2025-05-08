@@ -3208,7 +3208,8 @@
     "condition",
     "republic",
     "aztec",
-    "nationality"
+    "nationality",
+    "twelve"
   ],
   "verbs": [
     "went to",
@@ -3716,6 +3717,7 @@
     "passed",
     "writing",
     "carry",
-    "joins"
+    "joins",
+    "flash"
   ]
 }
