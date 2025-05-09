@@ -3727,6 +3727,9 @@
     "carry",
     "joins",
     "flash",
-    "framed"
+    "framed",
+    "peek",
+    "become",
+    "meant"
   ]
 }
