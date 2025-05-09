@@ -3217,7 +3217,8 @@
     "boy",
     "militia",
     "mail",
-    "rn"
+    "rn",
+    "campaign"
   ],
   "verbs": [
     "went to",
@@ -3730,6 +3731,8 @@
     "framed",
     "peek",
     "become",
-    "meant"
+    "meant",
+    "worth",
+    "apologising"
   ]
 }
