@@ -3225,7 +3225,8 @@
     "zed",
     "amount",
     "eu",
-    "endi"
+    "endi",
+    "era"
   ],
   "verbs": [
     "went to",
@@ -3743,6 +3744,8 @@
     "apologising",
     "feeds",
     "ignore",
-    "subscribed"
+    "subscribed",
+    "waiting",
+    "clear"
   ]
 }
