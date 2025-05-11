@@ -3226,7 +3226,10 @@
     "amount",
     "eu",
     "endi",
-    "era"
+    "era",
+    "cats",
+    "buck",
+    "each"
   ],
   "verbs": [
     "went to",
@@ -3746,6 +3749,7 @@
     "ignore",
     "subscribed",
     "waiting",
-    "clear"
+    "clear",
+    "ded"
   ]
 }
