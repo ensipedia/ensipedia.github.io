@@ -3758,6 +3758,7 @@
     "clear",
     "ded",
     "informed",
-    "caught"
+    "caught",
+    "objects"
   ]
 }
