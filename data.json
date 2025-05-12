@@ -3234,7 +3234,8 @@
     "darkness",
     "cmd",
     "neighbour",
-    "weight"
+    "weight",
+    "client"
   ],
   "verbs": [
     "went to",
