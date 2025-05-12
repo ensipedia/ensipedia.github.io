@@ -3232,7 +3232,9 @@
     "each",
     "who’s",
     "darkness",
-    "cmd"
+    "cmd",
+    "neighbour",
+    "weight"
   ],
   "verbs": [
     "went to",
@@ -3753,6 +3755,7 @@
     "subscribed",
     "waiting",
     "clear",
-    "ded"
+    "ded",
+    "informed"
   ]
 }
