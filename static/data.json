@@ -3235,7 +3235,8 @@
     "cmd",
     "neighbour",
     "weight",
-    "client"
+    "client",
+    "rp"
   ],
   "verbs": [
     "went to",
