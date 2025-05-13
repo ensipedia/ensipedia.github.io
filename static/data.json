@@ -3236,7 +3236,8 @@
     "neighbour",
     "weight",
     "client",
-    "rp"
+    "rp",
+    "entire"
   ],
   "verbs": [
     "went to",
