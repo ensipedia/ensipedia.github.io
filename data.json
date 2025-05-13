@@ -3237,7 +3237,9 @@
     "weight",
     "client",
     "rp",
-    "entire"
+    "entire",
+    "command",
+    "crackhead"
   ],
   "verbs": [
     "went to",
@@ -3762,6 +3764,7 @@
     "informed",
     "caught",
     "objects",
-    "pinged"
+    "pinged",
+    "previews"
   ]
 }
