@@ -3243,7 +3243,8 @@
     "sale",
     "songs",
     "mi",
-    "essay"
+    "essay",
+    "objects"
   ],
   "verbs": [
     "went to",
@@ -3767,7 +3768,6 @@
     "ded",
     "informed",
     "caught",
-    "objects",
     "pinged",
     "previews",
     "tag"
