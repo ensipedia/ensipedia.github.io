@@ -3254,7 +3254,9 @@
     "spawnpoint",
     "kebab",
     "nowhere",
-    "voters"
+    "voters",
+    "snipers",
+    "autos"
   ],
   "verbs": [
     "went to",
