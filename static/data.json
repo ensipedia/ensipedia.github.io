@@ -3260,7 +3260,9 @@
     "remainings",
     "roles",
     "nightmare",
-    "epic"
+    "epic",
+    "response",
+    "drogadicto"
   ],
   "verbs": [
     "went to",
@@ -3797,6 +3799,8 @@
     "messed",
     "figured",
     "bothering",
-    "manipulated"
+    "manipulated",
+    "hosting",
+    "phrased"
   ]
 }
