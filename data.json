@@ -3257,7 +3257,8 @@
     "voters",
     "snipers",
     "autos",
-    "remainings"
+    "remainings",
+    "roles"
   ],
   "verbs": [
     "went to",
