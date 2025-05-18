@@ -3269,7 +3269,8 @@
     "tetas",
     "instance",
     "pc",
-    "every"
+    "every",
+    "phones"
   ],
   "verbs": [
     "went to",
@@ -3810,6 +3811,7 @@
     "hosting",
     "phrased",
     "releasing",
-    "apologizing"
+    "apologizing",
+    "pathfinding"
   ]
 }
