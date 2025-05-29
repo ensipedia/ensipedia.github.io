@@ -3335,7 +3335,13 @@
     "invaluable",
     "lanes",
     "beyond",
-    "grammar"
+    "grammar",
+    "allies",
+    "pistol",
+    "speed",
+    "bf5",
+    "situations",
+    "gameplay"
   ],
   "verbs": [
     "went to",
@@ -3900,6 +3906,7 @@
     "believe",
     "executing",
     "uncivilized",
-    "offended"
+    "offended",
+    "operate"
   ]
 }
