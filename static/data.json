@@ -3344,7 +3344,10 @@
     "gameplay",
     "oat",
     "victim",
-    "morty"
+    "morty",
+    "aux",
+    "telephone",
+    "slay"
   ],
   "verbs": [
     "went to",
@@ -3912,6 +3915,7 @@
     "offended",
     "operate",
     "assault",
-    "invading"
+    "invading",
+    "ghost"
   ]
 }
