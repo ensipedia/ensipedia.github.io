@@ -3347,7 +3347,8 @@
     "morty",
     "aux",
     "telephone",
-    "slay"
+    "slay",
+    "kilicdaroglu"
   ],
   "verbs": [
     "went to",
@@ -3916,6 +3917,7 @@
     "operate",
     "assault",
     "invading",
-    "ghost"
+    "ghost",
+    "lying"
   ]
 }
