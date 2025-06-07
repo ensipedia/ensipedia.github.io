@@ -3359,7 +3359,8 @@
     "playtest",
     "hallucination",
     "aesthetic",
-    "truly"
+    "truly",
+    "experiment"
   ],
   "verbs": [
     "went to",
@@ -3931,6 +3932,7 @@
     "ghost",
     "lying",
     "arrest",
-    "thinks"
+    "thinks",
+    "grab"
   ]
 }
