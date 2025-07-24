@@ -3573,7 +3573,9 @@
     "wifi",
     "tips",
     "googel",
-    "desc"
+    "desc",
+    "classic",
+    "idle"
   ],
   "verbs": [
     "went to",
