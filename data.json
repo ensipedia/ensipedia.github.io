@@ -3627,7 +3627,8 @@
     "strict",
     "inevitable",
     "timezone",
-    "sideswitch"
+    "sideswitch",
+    "gm"
   ],
   "verbs": [
     "went to",
