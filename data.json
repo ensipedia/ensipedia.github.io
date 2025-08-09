@@ -3644,7 +3644,8 @@
     "john",
     "jockey",
     "battlefield",
-    "rehabilitation"
+    "rehabilitation",
+    "idol"
   ],
   "verbs": [
     "went to",
@@ -4360,6 +4361,8 @@
     "sacrifices",
     "growing",
     "dmed",
-    "recoil"
+    "recoil",
+    "bombed",
+    "shocked"
   ]
 }
