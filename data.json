@@ -3690,7 +3690,8 @@
     "minority",
     "minute",
     "else",
-    "moderator"
+    "moderator",
+    "presence"
   ],
   "verbs": [
     "went to",
@@ -4426,6 +4427,7 @@
     "supplied",
     "ragebait",
     "ragebaiting",
-    "becoming"
+    "becoming",
+    "provide"
   ]
 }
