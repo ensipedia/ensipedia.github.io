@@ -3691,7 +3691,8 @@
     "minute",
     "else",
     "moderator",
-    "presence"
+    "presence",
+    "feature"
   ],
   "verbs": [
     "went to",
