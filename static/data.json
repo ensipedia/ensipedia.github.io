@@ -3693,7 +3693,8 @@
     "moderator",
     "presence",
     "feature",
-    "alice"
+    "alice",
+    "tool"
   ],
   "verbs": [
     "went to",
@@ -4434,6 +4435,7 @@
     "leeches",
     "dox",
     "boot",
-    "hosts"
+    "hosts",
+    "halted"
   ]
 }
