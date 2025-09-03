@@ -3733,7 +3733,11 @@
     "labor",
     "hay",
     "terraria",
-    "growth"
+    "growth",
+    "prophet",
+    "nicer",
+    "esa",
+    "re"
   ],
   "verbs": [
     "went to",
@@ -4487,6 +4491,7 @@
     "ragdolls",
     "hallucinated",
     "backing",
-    "rehosting"
+    "rehosting",
+    "joining"
   ]
 }
