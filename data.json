@@ -3759,7 +3759,9 @@
     "border-line",
     "mfkers",
     "silksong",
-    "ahead"
+    "ahead",
+    "dragon",
+    "goku"
   ],
   "verbs": [
     "went to",
@@ -4522,6 +4524,7 @@
     "function",
     "centralized",
     "contacts",
-    "expanded"
+    "expanded",
+    "shuttle"
   ]
 }
