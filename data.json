@@ -3800,7 +3800,8 @@
     "likely",
     "large",
     "hp",
-    "thrice"
+    "thrice",
+    "info"
   ],
   "verbs": [
     "went to",
@@ -4581,6 +4582,7 @@
     "banish",
     "places",
     "defined",
-    "rickroll"
+    "rickroll",
+    "leaked"
   ]
 }
