@@ -3801,7 +3801,9 @@
     "large",
     "hp",
     "thrice",
-    "info"
+    "info",
+    "bl",
+    "0-0"
   ],
   "verbs": [
     "went to",
@@ -4584,6 +4586,7 @@
     "defined",
     "rickroll",
     "leaked",
-    "storm"
+    "storm",
+    "suggest"
   ]
 }
