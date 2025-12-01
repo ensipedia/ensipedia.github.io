@@ -3815,7 +3815,10 @@
     "slop",
     "nano",
     "backend",
-    "su"
+    "su",
+    "origin",
+    "e-crime",
+    "shootings"
   ],
   "verbs": [
     "went to",
