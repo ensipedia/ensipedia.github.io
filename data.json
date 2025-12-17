@@ -3823,7 +3823,13 @@
     "creature",
     "teta",
     "mostly",
-    "intro"
+    "intro",
+    "makeover",
+    "horses",
+    "discussions",
+    "latest",
+    "primer",
+    "reasons"
   ],
   "verbs": [
     "went to",
@@ -4615,6 +4621,11 @@
     "bridge",
     "havent",
     "threw",
-    "control"
+    "control",
+    "nag",
+    "hits",
+    "scamming",
+    "voices",
+    "duplicated"
   ]
 }
