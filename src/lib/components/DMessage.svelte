@@ -1,7 +1,7 @@
 <script>
   export let message;
-  export let containerColor = "rgb(var(--m3-scheme-surface-container-low))";
-  export let contentColor = "rgb(var(--m3-scheme-on-surface))";
+  export let containerColor = "var(--m3c-surface-container-low)";
+  export let contentColor = "var(--m3c-on-surface)";
 </script>
 
 <div style:text-align="left" style:display="flex" style:background={containerColor}>

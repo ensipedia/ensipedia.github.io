@@ -4,9 +4,8 @@
   import {
     Button,
     Card,
-    CircularProgressIndeterminate,
-    SegmentedButtonContainer,
-    SegmentedButtonItem,
+    ConnectedButtons,
+    LoadingIndicator,
     TextFieldOutlined
   } from "m3-svelte";
   import TopBar from "$lib/components/TopBar.svelte";
@@ -31,7 +30,7 @@
     <TopBar/>
     
     <a href="starboard" style:text-decoration="none">
-      <Button type="elevated">⭐ Starboard</Button>
+      <Button variant="elevated">⭐ Starboard</Button>
     </a>
     
     <div
@@ -39,7 +38,7 @@
       style:margin="24px 0px 24px 0px"
       style:border-radius="28px"
       style:padding="1px 24px 1px 24px"
-      style:background="rgb(var(--m3-scheme-surface-container-low))">
+      style:background="var(--m3c-surface-container-low)">
       <p>
         • <a href="https://aliernfrog.github.io/ensibot">Add Ensi</a><br>
         • <a href="https://aliernfrog.github.io/discord">Discord server</a><br>
@@ -49,14 +48,18 @@
     
     <TextFieldOutlined
       bind:value={query}
-      name="Search" />
+      label="Search" />
+    
+    <div style:margin-bottom="8px"></div>
   
-    <SegmentedButtonContainer>
-      <input type="radio" id="words" value="words" bind:group={category} />
-      <SegmentedButtonItem input="words">Words</SegmentedButtonItem>
-      <input type="radio" id="verbs" value="verbs" bind:group={category} />
-      <SegmentedButtonItem input="verbs">Verbs</SegmentedButtonItem>
-    </SegmentedButtonContainer>
+    <ConnectedButtons>
+      <Button label>
+        <input type="radio" name="connectedbuttons" value="words" bind:group={category}/>Words
+      </Button>
+      <Button label>
+        <input type="radio" name="connectedbuttons" value="verbs" bind:group={category}/>Verbs
+      </Button>
+    </ConnectedButtons>
     {#if data != null}
       <br><p1 style:text-align="left">{
         filtered.length ? `${filtered.length} items shown` : "No matches"
@@ -65,7 +68,7 @@
     
     <div style:margin="8px 0px 8px 0px">
       {#if data == null}
-        <CircularProgressIndeterminate />
+        <LoadingIndicator />
       {:else}
         {#each filtered as word}
           <div style:text-align="left" style:margin="8px 0px 8px 0px">

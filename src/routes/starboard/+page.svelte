@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import Lazy from "svelte-lazy";
-  import { Button, CircularProgressIndeterminate, TextFieldOutlined } from "m3-svelte";
+  import { Button, TextFieldOutlined, LoadingIndicator } from "m3-svelte";
   import TopBar from "$lib/components/TopBar.svelte";
   import DMessage from "$lib/components/DMessage.svelte";
   import { getStarboard } from "$lib/starboard.js";
@@ -25,7 +25,7 @@
     <TopBar title="Starboard" icon="starboard.png" />
     
     <a href="." style:text-decoration="none">
-      <Button type="elevated">🏠 Homepage</Button>
+      <Button variant="elevated">🏠 Homepage</Button>
     </a>
     
     <div
@@ -33,7 +33,7 @@
       style:margin="24px 0px 24px 0px"
       style:border-radius="28px"
       style:padding="1px 24px 1px 24px"
-      style:background="rgb(var(--m3-scheme-surface-container-low))">
+      style:background="var(--m3c-surface-container-low)">
       <p>
         <b>To add a message here,</b> right click (or long press if mobile) a message of Ensi, click Apps and click the "Starboard" command of Ensi. The message may be included after a review.
       </p>
@@ -41,9 +41,12 @@
     
     <TextFieldOutlined
       bind:value={query}
-      name="Search" />
+      label="Search" />
+      
+    <div style:margin-bottom="8px"></div>
+    
     {#if starboard != null}
-      <br><p1 style:text-align="left">{
+      <p1 style:text-align="left">{
         filtered.length ? `${filtered.length} messages shown` : "No matches"
       }</p1>
     {/if}
@@ -56,7 +59,7 @@
         </div>
       {/each}
     {:else}
-      <CircularProgressIndeterminate />
+      <LoadingIndicator />
     {/if}
   </div>
 </Lazy>
