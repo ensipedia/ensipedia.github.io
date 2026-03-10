@@ -39,7 +39,7 @@ jobs:
         run: |
           node starboard/build.js
           git add .
-          git commit -m "chore: build starboard.json"
+          git commit -m "chore: Build starboard.json"
           git push
     
       - name: Build site
