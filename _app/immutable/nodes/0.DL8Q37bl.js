@@ -1,0 +1,1 @@
+import{G as e,O as t,S as n,k as r}from"../chunks/CeoEP1ac.js";import"../chunks/DXLwiZ0H.js";import"../chunks/C0DaU6hk.js";function i(i,a){var o=r();n(e(o),a,`default`,{},null),t(i,o)}export{i as component};
