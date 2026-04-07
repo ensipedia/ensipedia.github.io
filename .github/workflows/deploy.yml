@@ -27,7 +27,7 @@ jobs:
           node-version: "24"
       
       - name: Install dependencies
-        run: npm i
+        run: npm i --force
         
       - name: Set Git credentials
         run: |
